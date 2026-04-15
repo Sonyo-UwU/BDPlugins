@@ -1,9 +1,9 @@
 /**
- * @name MessagesFetchLimit
+ * @name MessagesLoadLimit
  * @author Sonyo
- * @description Customize the messages fetch limit, defaults to the good old 50
+ * @description Customize the messages load limit, defaults to the good old 50
  * @version 1.1.0
- * @source https://github.com/Sonyo-UwU/BDPlugins/tree/main/MessagesFetchLimit
+ * @source https://github.com/Sonyo-UwU/BDPlugins/tree/main/MessagesLoadLimit
  */
 
 module.exports = class MyPlugin {
