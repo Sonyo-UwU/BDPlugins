@@ -15,7 +15,7 @@ module.exports = class MyPlugin {
     start() {
 		Object.assign(this.settings, this.api.Data.load('settings'));
 		
-		const fetchMessagesModule = BdApi.Webpack.getByKeys('jumpToMessage', '_sendMessage', 'fetchMessages');
+		const fetchMessagesModule = this.api.Webpack.getByKeys('jumpToMessage', '_sendMessage', 'fetchMessages');
 		
 		this.api.Patcher.before(fetchMessagesModule, 'fetchMessages', (thisObject, args) => {
             if (args[0]?.limit != null) {
