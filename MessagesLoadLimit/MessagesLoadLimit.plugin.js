@@ -2,7 +2,7 @@
  * @name MessagesLoadLimit
  * @author Sonyo
  * @description Customize the messages load limit, defaults to the good old 50
- * @version 1.1.0
+ * @version 1.1.1
  * @source https://github.com/Sonyo-UwU/BDPlugins/tree/main/MessagesLoadLimit
  */
 
